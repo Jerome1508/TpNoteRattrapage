@@ -21,7 +21,7 @@
   <TextField fx:id="moyenneTextField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
 
   <!-- Button -->
-  <Button text="Ajouter" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.halignment="CENTER"/>
+  <Button onAction="#actionEnregistrer" text="Ajouter" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.halignment="CENTER"/>
 
   <!-- ListView -->
   <ListView fx:id="etudiantListView" GridPane.columnIndex="2" GridPane.rowIndex="0"

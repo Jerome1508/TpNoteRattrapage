@@ -24,6 +24,9 @@ public class GestionnaireEtudiant {
 
     public GestionnaireEtudiant() throws IOException {
         this.promotion = new ArrayList<>();
+        this.promotion.add(new Etudiant("AA","CC",2));
+        this.promotion.add(new Etudiant("BB","SS",10));
+        this.promotion.add(new Etudiant("BG","Grosse bite",16));
         this.chargerCriteres();
     }
 
@@ -85,4 +88,7 @@ public class GestionnaireEtudiant {
         return this.references;
     }
 
+    public  List<Etudiant> getListeEtudiant() {
+        return promotion;
+    }
 }

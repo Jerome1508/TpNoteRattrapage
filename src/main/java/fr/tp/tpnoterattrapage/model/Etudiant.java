@@ -38,10 +38,9 @@ public class Etudiant implements Serializable {
 
     @Override
     public String toString() {
-        return "Etudiant{" +
-                "nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
-                ", moyenne=" + moyenne +
-                '}';
+        return
+                nom +" "
+               + prenom +" "+
+                moyenne;
     }
 }
