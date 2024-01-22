@@ -16,7 +16,7 @@ public class GestionnaireEtudiant extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(GestionnaireEtudiant.class.getResource("IHM.fxml"));
-        GridPane root = fxmlLoader.load();  // Utilisez VBox ici au lieu de GridPane
+        GridPane root = fxmlLoader.load();
 
         Scene scene = new Scene(root, 600, 200);
         scene.setFill(Color.LIGHTGRAY); // Changer la couleur de fond

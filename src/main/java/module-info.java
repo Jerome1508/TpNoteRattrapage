@@ -5,7 +5,7 @@ module fr.tp.tpnoterattrapage {
 
 
     opens fr.tp.tpnoterattrapage to javafx.fxml;
-    exports fr.tp.tpnoterattrapage.test;
+
     exports fr.tp.tpnoterattrapage;
 
 }
